@@ -29,3 +29,6 @@ output "instance_profile_role_arn" {
   value       = aws_iam_role.instance_profile_role.arn
 }
 
+output "irsa_iam_role_arn" {
+  value = aws_iam_policy.castai_iam_policy.arn
+}
